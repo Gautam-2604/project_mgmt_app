@@ -9,7 +9,7 @@ const GET_PROJECTS = gql`
     }
   }
 `;
-
+//single project query for display
 const GET_PROJECT = gql`
   query getProject($id: ID!) {
     project(id: $id) {
